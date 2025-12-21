@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: linear-gradient(180deg, #b8dcff, #1b3b6f);
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.poem-list a {
+  display: block;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.poem {
+  text-align: left;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
